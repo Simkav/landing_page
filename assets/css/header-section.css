@@ -1,14 +1,30 @@
-/* .bg-image-container {
-background-image: url("../images/food_image.jpg");
-background-size: contain;
-background-repeat: no-repeat;
-} */
-.header-section * {
+.bg-image-container * {
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-
+.bg-image-container {
+  padding-bottom: 50px;
+}
+.text-heading {
+  font-size: 12px;
+  color: var(--secondary-color);
+  line-height: 24px;
+}
+.text-sub-heading {
+  font-weight: 700;
+  line-height: 42px;
+  color: var(--black-color);
+  letter-spacing: -2px;
+  font-size: 2rem;
+}
+.download-info-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--secondary-color);
+  letter-spacing: 0px;
+}
 .header-section {
   margin-bottom: -200px;
   padding-bottom: 0px;
@@ -19,16 +35,14 @@ background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
 }
-/* media 768 row + padding */
 .btn-rounded {
-  max-height: 40px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border-radius: 30px;
+  font-weight: 700;
+  max-height: 60px;
+  padding: 8px 40px;
+  border-radius: 20px;
   border: 1px solid;
   font-size: 24px;
   line-height: 36px;
-  font-weight: 500;
 }
 .main-btn {
   background-color: var(--main-color);
@@ -42,44 +56,62 @@ background-repeat: no-repeat;
   max-width: 100%;
 }
 
-.right-phone-img {
-  position: absolute;
-  left: 0;
-}
-
 .left-phone-img {
+  z-index: -2;
   width: 100%;
   position: relative;
   top: -100px;
 }
 .right-phone-img {
+  z-index: -1;
   position: absolute;
   left: 46%;
   width: 53%;
 }
+@media screen and (min-width: 576px) {
+  .left-phone-img {
+    left: -100px;
+  }
+}
 @media screen and (min-width: 768px) {
   .bg-image-container {
+    padding-top: 73px;
     background-image: url("../images/food_image.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    color: var(--main-color);
   }
-  .main-btn {
-    margin-right: 50px;
+  .bg-image-container * {
+    color: var(--bg-color);
+    padding: 10px 30px;
+  }
+  .secondary-btn {
+    background-color: unset;
   }
   .buttons-container {
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   .left-phone-img {
-    position: relative;
-    left: -50px;
-    top: -100px;
+    left: -158px;
+    top: -126px;
     width: inherit;
   }
   .right-phone-img {
-    position: absolute;
     left: 50%;
-    top: 70%;
+    top: 134%;
     width: inherit;
+  }
+  .main-btn {
+    border-color: var(--main-color);
+    margin-right: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .right-phone-img {
+    top: 540px;
+  }
+  .left-phone-img {
+    left: -75px;
   }
 }

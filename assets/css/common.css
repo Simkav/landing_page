@@ -1,6 +1,8 @@
 :root {
   --bg-color: #fafafa;
   --main-color: #fa4a0c;
+  --secondary-color: #737373;
+  --black-color: #252b42;
 }
 .ta-center {
   text-align: center;
