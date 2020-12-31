@@ -8,36 +8,18 @@ background-repeat: no-repeat;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.phones-container {
-  position: relative;
-}
-/* .img {
-  position: absolute;
-  width: 96%;
-  left: 8px;
-  top: -88px;
-}
-.right-phone-img {
-  left: 48%;
-  top: 29px;
-  width: 52%;
-} */
-
-.img {
-  position: absolute;
-  display: inline-block;
-  max-width: 50%;
-}
-.left-phone-img{
-  left: 0;
-  top: 0;
-}
 
 .header-section {
-  padding-bottom: 40px;
+  margin-bottom: -200px;
+  padding-bottom: 0px;
   padding-left: 5px;
   padding-right: 5px;
 }
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+}
+/* media 768 row + padding */
 .btn-rounded {
   max-height: 40px;
   padding-left: 30px;
@@ -55,4 +37,49 @@ background-repeat: no-repeat;
 .secondary-btn {
   background-color: var(--bg-color);
   color: var(--main-color);
+}
+.left-phone {
+  max-width: 100%;
+}
+
+.right-phone-img {
+  position: absolute;
+  left: 0;
+}
+
+.left-phone-img {
+  width: 100%;
+  position: relative;
+  top: -100px;
+}
+.right-phone-img {
+  position: absolute;
+  left: 46%;
+  width: 53%;
+}
+@media screen and (min-width: 768px) {
+  .bg-image-container {
+    background-image: url("../images/food_image.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .main-btn {
+    margin-right: 50px;
+  }
+  .buttons-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .left-phone-img {
+    position: relative;
+    left: -50px;
+    top: -100px;
+    width: inherit;
+  }
+  .right-phone-img {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    width: inherit;
+  }
 }
