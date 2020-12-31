@@ -1,0 +1,16 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.image-wrapper {
+  width: 95px;
+  /* width: 250px;
+  height: 100px; */
+}
+.image {
+  object-fit: contain;
+  width: inherit;
+  height: inherit;
+}

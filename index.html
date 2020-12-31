@@ -4,9 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
+    <title>Bella Onojie</title>
   </head>
   <body>
-
+    <header class="page-header">
+      <a href="#" class="link">
+        <div class="image-wrapper">
+          <img class="image" src="./assets/images/left.png" alt="logo" /></div
+      ></a>
+      <a href="#" class="link">
+        <img class="image" src="./assets/images/right.png" alt="burger button"
+      /></a>
+    </header>
+    <main>
+      <section class="header-section">
+        <div class="row bg-image-container g-0">
+          <div class="col-12">
+            <h4 class="">Food app</h4>
+            <h1 class="">
+              Why stay hungry when you can order from Bella Onojie
+            </h1>
+            <h3 class="">Download the bella onojie's food app now on</h3>
+          </div>
+          <!-- TODO REWRITE TO FLEX DIRECTION COLUMN\ROW MEDIA -->
+          <div class="col-12 col-md-2 offset-md-3">
+            <a href="#">
+              <button class="btn-rounded main-btn">Playstore</button>
+            </a>
+          </div>
+          <div class="col-12 col-md-2 offset-md-3">
+            <a href="#">
+              <button class="btn-rounded secondary-btn">App store</button>
+            </a>
+          </div>
+          <div class="col-12 phones-container">
+            <picture>
+              <source
+                srcset="assets/images/leftp_fs.png"
+                media="(min-width: 576px)"
+              />
+              <img
+                src="assets/images/leftp.png"
+                alt=""
+                class="img left-phone-img"
+              />
+            </picture>
+            <picture>
+              <source
+                srcset="assets/images/rightp_fs.png"
+                media="(min-width: 576px)"
+              />
+              <img
+                class="img right-phone-img"
+                src="assets/images/rightp.png"
+                alt=""
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
