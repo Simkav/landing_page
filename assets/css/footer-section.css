@@ -1,0 +1,49 @@
+.footer-section {
+  background-color: var(--black-color);
+  padding: 100px 40px;
+}
+.footer-section * {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.fs-heading {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.fs-sub-heading {
+  opacity: 0.5;
+}
+.fs-btn {
+  padding: 15px 15px;
+  border-radius: 10px;
+  border: 0px solid;
+  font-weight: 700;
+}
+.fs-main-btn {
+  margin-right: 15px;
+  background-color: var(--main-color);
+}
+.fs-secondary-btn {
+  background-color: unset;
+  border: 1px solid white;
+}
+@media screen and (min-width: 768px) {
+  .footer-section {
+    background-image: url("/assets/images/footer-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .fs-heading {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .fs-sub-heading {
+    opacity: 0.5;
+    font-size: 1.5rem;
+  }
+  .fs-btn {
+    padding: 15px 30px;
+  }
+}
