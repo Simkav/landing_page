@@ -1,0 +1,61 @@
+.horizontal-break {
+  opacity: 0.4;
+}
+.iaa-header {
+  padding-top: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.info-about-app {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.iaa-info-container * {
+  padding: 10px 10px;
+}
+.iaa-heading {
+  color: var(--main-color);
+  font-weight: 700;
+}
+.iaa-sub-heading {
+  font-weight: 700;
+  color: var(--black-color);
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.iaa-account-info {
+  opacity: 0.6;
+  padding: 10px 75px;
+  line-height: 2rem;
+}
+.iaa-image {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .info-about-app {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .shop {
+    flex-direction: row;
+  }
+  .info-about-app > * {
+    max-width: 50%;
+  }
+  .iaa-info-container {
+    text-align: inherit;
+  }
+  .iaa-heading {
+    font-size: 2rem;
+  }
+  .iaa-sub-heading {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .iaa-account-info {
+    font-size: 2rem;
+    padding: unset;
+  }
+}
