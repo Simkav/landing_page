@@ -25,11 +25,14 @@
 }
 .iaa-account-info {
   opacity: 0.6;
-  padding: 10px 75px;
   line-height: 2rem;
 }
 .iaa-image {
-  width: 100%;
+  max-width: 100%;
+}
+.iaa-image-container {
+  display: flex;
+  justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .info-about-app {
@@ -56,6 +59,6 @@
   }
   .iaa-account-info {
     font-size: 2rem;
-    padding: unset;
+    padding-left: 5px;
   }
 }
