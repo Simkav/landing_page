@@ -3,6 +3,16 @@
   margin-top: 5px;
   margin-bottom: 5px;
 }
+.phones-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 250px;
+  margin-top: 50px;
+}
+.img-phones {
+  max-width: 100vw;
+}
 .bg-image-container {
   padding-bottom: 50px;
 }

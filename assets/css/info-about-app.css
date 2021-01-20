@@ -41,6 +41,9 @@
   .shop {
     flex-direction: row;
   }
+  .horizontal-break {
+    width: 75%;
+  }
   .info-about-app > * {
     max-width: 50%;
   }

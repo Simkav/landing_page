@@ -1,11 +1,9 @@
-* {
-  font-family: "Montserrat", sans-serif;
-}
 :root {
   --bg-color: #fafafa;
   --main-color: #fa4a0c;
   --secondary-color: #737373;
   --black-color: #252b42;
+  font-family: 'Montserrat', sans-serif;
 }
 .ta-center {
   text-align: center;
