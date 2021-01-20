@@ -63,34 +63,13 @@
   background-color: var(--bg-color);
   color: var(--main-color);
 }
-.left-phone {
-  max-width: 100%;
-}
-
-.left-phone-img {
-  z-index: -2;
-  width: 100%;
-  position: relative;
-  top: -100px;
-}
-.right-phone-img {
-  z-index: -1;
-  position: absolute;
-  left: 46%;
-  width: 53%;
-}
-@media screen and (min-width: 576px) {
-  .left-phone-img {
-    left: -100px;
-  }
-}
 @media screen and (min-width: 768px) {
   .text-heading {
     font-size: 1.2rem;
   }
   .bg-image-container {
     padding-top: 73px;
-    background-image: url("../images/food_image.jpg");
+    background-image: url('../images/food_image.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     color: var(--main-color);
@@ -106,25 +85,11 @@
     flex-direction: row;
     justify-content: center;
   }
-  .left-phone-img {
-    left: -158px;
-    top: -126px;
-    width: inherit;
-  }
-  .right-phone-img {
-    left: 50%;
-    top: 150%;
-    width: inherit;
-  }
   .main-btn {
     border-color: var(--main-color);
   }
-}
-@media screen and (min-width: 1200px) {
-  .right-phone-img {
-    top: 540px;
-  }
-  .left-phone-img {
-    left: -75px;
+  .buttons-container > * {
+    padding: 0;
+    margin: 0px 25px;
   }
 }
