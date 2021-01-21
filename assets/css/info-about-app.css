@@ -10,6 +10,9 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.iaa-info-container {
+  padding: 0px 10px;
+}
 .iaa-info-container * {
   padding: 10px 10px;
 }
@@ -30,10 +33,6 @@
 .iaa-image {
   max-width: 100%;
 }
-.iaa-image-container {
-  display: flex;
-  justify-content: center;
-}
 @media screen and (min-width: 768px) {
   .info-about-app {
     display: flex;
@@ -41,11 +40,11 @@
     justify-content: space-evenly;
     align-items: center;
   }
-  .shop {
+  .info-section > :nth-child(2n + 1) {
     flex-direction: row;
   }
   .horizontal-break {
-    width: 75%;
+    width: 80%;
   }
   .info-about-app > * {
     max-width: 50%;
@@ -54,14 +53,14 @@
     text-align: inherit;
   }
   .iaa-heading {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .iaa-sub-heading {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 4rem;
   }
   .iaa-account-info {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-left: 5px;
   }
 }

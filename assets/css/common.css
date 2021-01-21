@@ -8,6 +8,15 @@
 .ta-center {
   text-align: center;
 }
+.flex-justify-center {
+  justify-content: center;
+}
+.display-flex {
+  display: flex;
+}
+.display-inblock {
+  display: inline-block;
+}
 .multiline-overflow {
   display: -webkit-box;
   -webkit-box-orient: vertical;

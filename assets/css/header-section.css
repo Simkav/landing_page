@@ -4,8 +4,6 @@
   margin-bottom: 5px;
 }
 .phones-container {
-  display: flex;
-  justify-content: center;
   width: 100%;
   margin-bottom: 250px;
   margin-top: 50px;
@@ -14,7 +12,7 @@
   max-width: 100vw;
 }
 .bg-image-container {
-  padding-bottom: 50px;
+  flex-direction: column;
 }
 .text-heading,
 .text-sub-heading {
@@ -43,7 +41,6 @@
   padding-bottom: 0px;
 }
 .buttons-container {
-  display: flex;
   flex-direction: column;
 }
 .btn-rounded {
@@ -65,10 +62,10 @@
 }
 @media screen and (min-width: 768px) {
   .text-heading {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .bg-image-container {
-    padding-top: 73px;
+    height: 500px;
     background-image: url('../images/food_image.jpg');
     background-size: cover;
     background-repeat: no-repeat;
