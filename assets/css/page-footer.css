@@ -1,5 +1,6 @@
 .page-footer {
   padding: 20px 30px;
+  flex-direction: column;
 }
 .copyright {
   font-size: 14px;
@@ -20,6 +21,7 @@
 }
 @media screen and (min-width: 768px) {
   .page-footer {
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
   }
