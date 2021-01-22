@@ -1,7 +1,8 @@
-@import '/assets/css/reset.css';
-@import '/assets/css/header.css';
-@import '/assets/css/header-section.css';
-@import '/assets/css/info-about-app.css';
-@import '/assets/css/footer-section.css';
-@import '/assets/css/page-footer.css';
-@import '/assets/css/common.css';
+@import './assets/css/fonts.css';
+@import './assets/css/reset.css';
+@import './assets/css/header.css';
+@import './assets/css/header-section.css';
+@import './assets/css/info-about-app.css';
+@import './assets/css/footer-section.css';
+@import './assets/css/page-footer.css';
+@import './assets/css/common.css';
