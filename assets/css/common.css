@@ -3,7 +3,7 @@
   --main-color: #fa4a0c;
   --secondary-color: #737373;
   --black-color: #252b42;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .ta-center {
   text-align: center;
@@ -27,4 +27,7 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+}
+.link {
+  display: inline-block;
 }
